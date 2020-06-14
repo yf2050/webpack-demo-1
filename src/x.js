@@ -1,3 +1,3 @@
-import "./style.less";
-import "./y.less";
+import "./style.styl";
+import "./y.styl";
 export default "xxx";

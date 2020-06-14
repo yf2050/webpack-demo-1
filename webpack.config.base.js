@@ -15,8 +15,12 @@ module.exports = {
   module: {
     rules: [
       {
+        test: /\.styl$/,
+        loader: ["style-loader", "css-loader", "stylus-loader"],
+      },
+      {
         test: /\.less$/,
-        loader: ["style-loader", "css-loader", "less-loader"], // compiles Less to CSS
+        loader: ["style-loader", "css-loader", "less-loader"],
       },
       {
         test: /\.scss$/i,

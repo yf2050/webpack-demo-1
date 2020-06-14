@@ -3671,6 +3671,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1dGSgYq7flEeRO2wTYFysCYjUto" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -3681,6 +3682,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.file-colors" />
   </component>
   <component name="SvnConfiguration">
@@ -3694,7 +3696,7 @@
       <option name="presentableId" value="Default" />
       <updated>1592050055416</updated>
       <workItem from="1592050078074" duration="61000" />
-      <workItem from="1592050666425" duration="67000" />
+      <workItem from="1592050666425" duration="255000" />
     </task>
     <servers />
   </component>

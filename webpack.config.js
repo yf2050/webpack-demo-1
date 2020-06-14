@@ -1,7 +1,7 @@
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const path = require("path");
-const base = require('./webpack.config.base.js')
+const base = require("./webpack.config.base.js");
 
 module.exports = {
   ...base,
@@ -11,9 +11,12 @@ module.exports = {
     contentBase: "./dist",
   },
   module: {
-    rules: [{
-      test: /\.css$/,
-      use: ['style-loader', 'css-loader'],
-    }, ],
+    rules: [
+      ...base.module.rules,
+      {
+        test: /\.css$/,
+        use: ["style-loader", "css-loader"],
+      },
+    ],
   },
 };

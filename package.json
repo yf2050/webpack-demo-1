@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "webpack.config.js",
-  "dependencies": {},
+  "dependencies": {
+    "dart-sass": "^1.25.0",
+    "sass-loader": "^8.0.2"
+  },
   "devDependencies": {
     "css-loader": "^3.5.3",
     "html-webpack-plugin": "^4.3.0",
